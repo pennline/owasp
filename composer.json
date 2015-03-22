@@ -1,9 +1,6 @@
 {
 	"name": "pennline/owasp",
 	"description": "the owasp package for the pennline framework",
-	"require": {
-		"php": "5.3.28"
-	},
 	"license": "MIT",
 	"authors": [
 		{
@@ -11,5 +8,13 @@
 			"email": "dan.entous@pennlinepublishing.com"
 		}
 	],
+	"require": {
+		"php": "5.3.28"
+	},
+	"autoload": {
+		"psr-4": {
+			"Pennline\\Owasp\\": ""
+		}
+	},
 	"minimum-stability": "dev"
 }
